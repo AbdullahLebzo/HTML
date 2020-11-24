@@ -1,0 +1,135 @@
+body {
+	font-family: 'Public Sans', sans-serif;
+	font-size: 18px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1440px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: white;
+	padding: 15px;
+	height: 600px;
+}
+
+#header {
+	height: 35px;
+	padding: auto	150px;
+}
+
+#logo{
+	margin-left: 100px;
+}
+
+
+.topnav {
+	margin: 0 15px;
+	color: hsl(0, 0%, 80%);
+	text-decoration: none;
+}
+
+.reqinv {
+	margin-right: 100px;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 5px 15px;
+	background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.req {
+	color: white;
+	text-decoration: none;
+}
+
+#container2 {
+	background-color: hsl(0, 8%, 95%);
+	overflow: hidden;
+}
+
+
+
+.topnav:hover{
+	color: gray;
+	padding-bottom: 25px;
+	border-bottom: 3px solid hsl(136, 65%, 51%);
+}
+
+
+.reqinv:hover {
+	opacity: .75;
+}
+
+#topimg {
+	position: relative;
+	left: 255px;
+	bottom: 1175px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#botimg {
+	position: relative;
+	left: 100px;
+	bottom: 290px;
+	z-index: 0;
+	overflow: hidden;
+}
+
+#textcont2 {
+	margin: 100px 0 100px 100px;
+}
+
+#imgs {
+	margin-right: 300px;
+	width: 575px;
+	
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 55px;
+	color: hsl(233, 26%, 24%);
+}
+
+
+p {
+	font-weight: 300;
+	margin-bottom: 35px;
+	color: hsl(0, 0%, 65%);
+	line-height: 1.5em;
+}
+
+h2	{
+	font-size: 40px;
+	font-weight: 400;
+	color: hsl(233, 26%, 24%);
+}
+
+#textcont3 {
+	margin: 50px 0 50px 100px;
+	width:100%;
+}
+
+#container3 {
+	background-color: hsl(220, 16%, 92%);
+	flex-wrap: wrap;
+}
+
+.feats {
+	width: calc(25%-15px);
+	margin-left: 10px;
+}
+
+#feat1 {
+	margin-left: 100px;
+}
+
+#feat4 {
+	margin-right: 100px;
+}
+
+h3 {
+	color: hsl(233, 26%, 24%);
+}
