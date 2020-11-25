@@ -16,16 +16,23 @@ body {
 
 #header {
 	height: 35px;
-	padding: auto	150px;
 }
 
 #logo{
 	margin-left: 100px;
 }
 
+ul	{
+	margin-top: 0px;
+}
+
+li {
+	display: inline;
+}
+
 
 .topnav {
-	margin: 0 15px;
+	margin: 10px 15px 40px 15px;
 	color: hsl(0, 0%, 80%);
 	text-decoration: none;
 }
@@ -66,7 +73,6 @@ body {
 	left: 255px;
 	bottom: 1175px;
 	z-index: 1;
-	overflow: hidden;
 }
 
 #botimg {
@@ -74,7 +80,6 @@ body {
 	left: 100px;
 	bottom: 290px;
 	z-index: 0;
-	overflow: hidden;
 }
 
 #textcont2 {
@@ -207,13 +212,10 @@ h6 {
 	margin-left: 35px;
 }
 
-#facesymb {
-	margin-left: 35px;
-}
-
 .socialsymbols {
 	padding-left: 5px;
 }
+
 
 
 .footlinks {
@@ -255,4 +257,90 @@ h6 {
 #crtext {
 	font-size: 0.75em;
 	margin-top: 30px;
+}
+
+@media screen and (min-width: 376px) {
+	#mobback {
+		display: none;
+	}
+	.mobbr {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.container {
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+
+	.break {
+		display: none;
+	}
+
+	#logo {
+		margin-left: 0px;
+	}
+
+	#headreq {
+		display: none;
+	}
+
+	#reqhead {
+		display: none;
+	}
+
+	p {
+		font-size: 0.75em;
+		text-align: center;
+		padding-left: 0px;
+		font-weight: 400;
+	}
+
+
+	#textcont2 {
+	margin: 10px auto;
+	z-index: 1;
+	position: relative;
+	bottom: 80px;
+	}
+
+
+	h1 {
+		font-size: 2.3em;
+		text-align: center;
+	}
+
+	#secreq {
+		width: 375px;
+		margin-left: 90px;
+		text-align: center;
+	}
+
+	#botimg {
+		display: none;
+	}
+
+	#imgs {
+		height: 70%;
+		z-index: 0;
+	}
+
+	#topimg {
+		width: 55%;
+		position: relative;
+		bottom: 465px;
+		left: 8px;
+	}
+
+	#mobback {
+		position: relative;
+		bottom: 15px;
+		right: 13px;
+	}
+
+	#break {
+		display: none;
+	}
+
 }
