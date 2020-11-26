@@ -216,8 +216,9 @@ h6 {
 	padding-left: 5px;
 }
 
-
-
+path:hover {
+	fill: lime;
+}
 .footlinks {
 	color: white;
 	text-decoration: none;
