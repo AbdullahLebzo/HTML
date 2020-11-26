@@ -266,6 +266,10 @@ h6 {
 	.mobbr {
 		display: none;
 	}
+
+	#hamburger {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -278,8 +282,20 @@ h6 {
 		display: none;
 	}
 
+	#header {
+		flex-direction: row;
+	}
+
 	#logo {
 		margin-left: 0px;
+	}
+
+	#hamburger {
+		margin-right: 30px;
+	}
+
+	#nav {
+		display: none;
 	}
 
 	#headreq {
@@ -442,7 +458,7 @@ h6 {
 	}
 
 	.artlink {
-		font-size: 0.85em;
+		font-size: 0.9em;
 		padding: 0 10px;
 		display:block;
 		font-weight: 400;
@@ -452,5 +468,51 @@ h6 {
 		text-align: left;
 		margin-left: 10px;
 		width: 105%;
+	}
+
+	#footer {
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 70%;
+	}
+
+	#blend {
+		width: 90%;
+		position: relative;
+		right: 50px;
+		margin-top: 10px;
+	}
+
+	.socialsymbols {
+		padding-left: 15px;
+		position: relative;
+		right: 35px;
+		bottom: 40px;
+		padding-bottom: 5px;
+	}
+
+	#footinfo {
+		position: relative;
+		bottom: 50px;
+		width: 90%;
+		text-align: center;
+		margin-top: 5px;
+		z-index: 1;
+		margin-bottom: 10px;
+	}
+
+	.footlinks {
+		margin-top: 15px;
+	}
+
+	#copyr {
+		width: 90%;
+		margin-top: 10px;
+		position: relative;
+		bottom: 25px;
+	}
+
+	#footinv {
+		margin-right: 75px;
 	}
 }
